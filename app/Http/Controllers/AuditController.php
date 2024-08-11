@@ -209,7 +209,7 @@ class AuditController extends Controller
         // return view('dashboard.spa2a.pdf', $data);
 
         $pdf = FacadePdf::loadView('dashboard.spa2a.pdf', $data)
-        ->setPaper('legal', 'potrait');
+            ->setPaper('legal', 'potrait');
 
         return $pdf->download('SP2A.pdf');
     }
