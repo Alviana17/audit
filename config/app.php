@@ -173,7 +173,7 @@ return [
         Ladumor\LaravelPwa\PWAServiceProvider::class,
 
         // for tcpdf
-        // Elibyy\TCPDF\ServiceProvider::class,
+        Elibyy\TCPDF\ServiceProvider::class,
 
         // for dompdf
         Barryvdh\DomPDF\ServiceProvider::class,
@@ -196,7 +196,7 @@ return [
         'LaravelPwa' => \Ladumor\LaravelPwa\LaravelPwa::class,
 
         // for tcpdf
-        // 'PDF' => Elibyy\TCPDF\Facades\TCPDF::class,
+        'PDF' => Elibyy\TCPDF\Facades\TCPDF::class,
     ])->toArray(),
 
     

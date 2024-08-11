@@ -19,7 +19,6 @@ use App\Models\User;
 use App\Models\Notification;
 use Barryvdh\DomPDF\Facade\Pdf as FacadePdf;
 use Carbon\Carbon;
-use PDF;
 
 App::setLocale('id');
 
